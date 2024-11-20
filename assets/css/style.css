@@ -41,6 +41,7 @@ body {
   grid-template-rows: 1fr;
   max-width: 65rem;
   border-radius: 1rem;
+padding: 1.5rem 0;
 
   box-shadow: 10px 10px 35px hsla(214, 4%, 69%, 0.7);
 }
