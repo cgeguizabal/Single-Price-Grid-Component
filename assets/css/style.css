@@ -108,11 +108,13 @@ body {
   color: white;
   margin-top: 1rem;
   font-weight: 400;
+  font-size: 1.8rem;
 }
 
 .button:link,
 .button:visited {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -145,7 +147,7 @@ body {
 
 .box3 p {
   margin-top: 3rem;
-  color: hsla(203, 44%, 93%, 70%);
+  color: hsla(203, 44%, 93%, 90%);
   padding-right: 4rem;
   line-height: 1.6;
   font-size: 1.5rem;
