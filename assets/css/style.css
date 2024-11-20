@@ -41,7 +41,7 @@ body {
   grid-template-rows: 1fr;
   max-width: 65rem;
   border-radius: 1rem;
-padding: 1.5rem 0;
+
 
   box-shadow: 10px 10px 35px hsla(214, 4%, 69%, 0.7);
 }
@@ -158,6 +158,9 @@ padding: 1.5rem 0;
 - Desktop: 1440px */
 
 @media (max-width: 860px) {
+  .wrapper {
+    margin-top: 10rem;
+  }
   .container {
     grid-template-columns: 1fr;
   }
